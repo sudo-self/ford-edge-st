@@ -1,0 +1,222 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter r173"
+  },
+  "scenes": [
+    {
+      "name": "AuxScene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "tripo_node_390f0de9-75f0-4e59-aede-1d112ff09700",
+      "mesh": 0
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 3329556,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3329560,
+      "byteLength": 3329556,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6659120,
+      "byteLength": 2219704,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8878824,
+      "byteLength": 5999004,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "name": "model",
+      "byteLength": 14877832,
+      "uri": "model.bin"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 277463,
+      "max": [
+        0.4999728798866272,
+        0.1866644024848938,
+        0.25241824984550476
+      ],
+      "min": [
+        -0.4999794363975525,
+        -0.18669264018535614,
+        -0.25241026282310486
+      ],
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 277463,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 277463,
+      "max": [
+        0.9996702671051025,
+        0.9999411702156067
+      ],
+      "min": [
+        0.000008705537766218185,
+        0.00008434057235717773
+      ],
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 1499751,
+      "max": [
+        277462
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR",
+      "byteOffset": 0
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 1,
+        "roughnessFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "baseColorTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0
+      },
+      "name": "tripo_material_390f0de9-75f0-4e59-aede-1d112ff09700",
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "ORM_390f0de9-75f0-4e59-aede-1d112ff09700"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "Color_390f0de9-75f0-4e59-aede-1d112ff09700"
+    },
+    {
+      "sampler": 2,
+      "source": 2,
+      "name": "NormalGL_390f0de9-75f0-4e59-aede-1d112ff09700"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "uri": "model0.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "uri": "model1.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "uri": "model2.jpg"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ]
+}
